@@ -1,0 +1,324 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Microsoft Yahei", Arial, SimSun;
+}
+ul,li{
+    list-style: none;
+}
+a,a:visited,a:target,a:hover,a:active{
+    text-decoration: none;
+    color: #424242;
+}
+body,html{
+    width: 100%;
+    height: 200%;
+}
+.content{
+    margin: 20px 60px;
+    width: 100%;
+    height: 100%;
+    /*overflow: hidden;*/
+}
+.content .content_left{
+    float: left;
+    width: 224px;
+    border: 1px solid #6fdea3;
+    height: 100%;
+    background: #b3d4fc;
+}
+.content_left .left_title{
+    position: relative;
+    height: 160px;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 30px 0;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.content_left .left_title .left_title_img{
+    margin: 0 auto 10px auto;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow:hidden;
+}
+.content_left .left_title .left_title_img img{
+    width: 100%;
+    height: 100%;
+}
+.left_title .left_title_img i{
+    position: absolute;
+    left: 130px;
+    top: 110px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: url("../img/sprite_common_co.png") -10px -150px no-repeat;
+}
+.left_title .left_title_desc{
+    width: 100%;
+    height: 20px;
+}
+.left_title .left_title_desc span{
+    font-size: 12px;
+    color: #999;
+}
+.left_title .left_title_desc a{
+    margin-top: 10px;
+    display: inline-block;
+    width: 60px;
+    height: 18px;
+    border: 1px solid #cf3220;
+    line-height: 20px;
+    color: #e2110f;
+    padding: 0 5px;
+    border-radius: 2px;
+    font-size: 12px;
+}
+.content_left .left_content{
+    width: 100%;
+}
+.content_left .left_content .left_item a{
+    display: block;
+    padding: 10px 0 10px 18px;
+    margin: 0 30px;
+    color: #666;
+    font-size: 14px;
+    cursor: pointer;
+    height: 22px;
+}
+.icon_1,.icon_2,.icon_3,.icon_4,.icon_5,.icon_6,.icon_7,.icon_8,.icon_9,.icon_10,.icon_11{
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background-image: url("../img_co/sprite_navi.png");
+    background-repeat: no-repeat;
+    vertical-align: bottom;
+}
+.icon_1{
+    background-position: -586px -10px;
+}
+.icon_2{
+    background-position: -42px -10px;
+}
+.icon_3{
+    background-position: -74px -10px;
+}
+.icon_4{
+    background-position: -106px -10px;
+}
+.icon_5{
+    background-position: -490px -10px;
+}
+.icon_6{
+    background-position: -138px -10px;
+}
+.icon_7{
+    background-position: -681px -10px;
+}
+.icon_8{
+    background-position: -234px -10px;
+}
+.icon_9{
+    background-position: -266px -10px;
+}
+.icon_10{
+    background-position: -522px -10px;
+}
+.icon_11{
+    background-position: -650px -10px;
+}
+
+
+
+.content_left .left_content .left_item:hover{
+    background: #ff7a0d;;
+}
+.content_left .left_content .left_item:hover .icon_1{
+    background-position: -586px -42px;
+}
+.content_left .left_content .left_item:hover .icon_2{
+    background-position: -42px -42px;
+}
+.content_left .left_content .left_item:hover .icon_3{
+    background-position: -74px -42px;
+}
+.content_left .left_content .left_item:hover .icon_4{
+    background-position: -106px -42px;
+}
+.content_left .left_content .left_item:hover .icon_5{
+    background-position: -490px -42px;
+}
+.content_left .left_content .left_item:hover .icon_6{
+    background-position: -138px -42px;
+}
+.content_left .left_content .left_item:hover .icon_7{
+    background-position: -681px -42px;
+}
+.content_left .left_content .left_item:hover .icon_8{
+    background-position: -234px -42px;
+}
+.content_left .left_content .left_item:hover .icon_9{
+    background-position: -266px -42px;
+}
+.content_left .left_content .left_item:hover .icon_10{
+    background-position: -522px -42px;
+}
+.content_left .left_content .left_item:hover .icon_11{
+    background-position: -650px -42px;
+}
+
+
+
+
+
+.content .content_right{
+    float: left;
+    padding: 0px 30px;
+    width: 1015px;
+    height: 100%;
+    background: #ffffff;
+}
+
+.content_right .right_title{
+    position: relative;
+    margin: 30px;
+    width: 944px;
+    height: 12px;
+    border-top: 1px solid #efefef;
+}
+.content_right .right_title h2{
+    position: absolute;
+    top: -13px;
+    background: #ffffff;
+    display: inline-block;
+    height: 24px;
+    line-height: 24px;
+    font-size: 20px;
+    font-weight: normal;
+}
+.content_right .right_title h2 i{
+    position: absolute;
+    top: 8px;
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    background-position: -90px -120px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-image: url("../img/sprite_common_co.png");
+}
+.content_right .right_title h2 a{
+    display: inline-block;
+    width: 60px;
+    margin-left: 20px;
+}
+.right_title .ad{
+    position: absolute;
+    left: 574px;
+    top: -20px;
+    width: 370px;
+    height: 40px;
+}
+.right_title .ad a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.right_title .ad a img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+.content_right .conList{
+    width: 100%;
+    height: 100%;
+}
+.conList .list_item{
+    float: left;
+    position: relative;
+    margin: 10px;
+    width: 175px;
+    height: 175px;
+    background: #f0f0f0;;
+}
+.list_item .item_img{
+    position: relative;
+    display: block;
+    width: 175px;
+    height: 100px;
+}
+.list_item .item_img img{
+    width: 100%;
+    height: 100%;
+}
+.list_item .close{
+    display: none;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    line-height: 26px;
+    text-align: center;
+    color: #fff;
+    font-size: 32px;
+    background: rgba(0,0,0,.7);
+}
+.list_item:hover .close{
+    background: #000;
+    color: #ff7e0c;
+}
+.list_item .item_img span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    padding: 0 5px;
+    width: 165px;
+    height: 20px;
+    line-height: 20px;
+    background: rgba(0,0,0,.45);
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #ffffff;
+    font-style: normal;
+    font-size: 12px;
+}
+
+.list_item .item_desc{
+    display: block;
+    font-size: 14px;
+    padding: 0 4px;
+    margin-top: 5px;
+    font-weight: normal;
+}
+.list_item .item_desc:hover{
+    color: #ff7800;
+}
+.list_item p{
+    color: #999;
+    padding-left: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 88%;
+    font-size: 12px;
+}
+.list_item p .ico{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    background-size: cover;
+    background:url("../img/sprite_common_co.png") -10px -135px no-repeat;
+    color: #999;
+}

@@ -71,7 +71,7 @@ console.log(jasonData2)
     var str1='',str2='';
     for(var i=0;i<jsonData.length;i++){
         var curData=jsonData[i];
-        str1+='<a class="big_banner" href="javascript:;"><img class="banner" src="" trueSrc='+curData["img"]+'/></a>';
+        str1+='<a class="big_banner" href="javascript:;"><img class="banner" src="" trueSrc="'+curData["img"]+'"/></a>';
     }
     str2+='<div class="focus_control"><h2 class="focus_title" title="《奔跑吧兄弟》 中韩开撕！李晨宋智孝牵手">《奔跑吧兄弟》 中韩开撕！李晨宋智孝牵手</h2><div id="focus_thumb" class="focus_thumb"><div id="thumb" class="focus_thumb_inner"><ul id="minBanner" class="focus_thumb_list">';
     for(var j=0;j<jasonData2.length;j++){
